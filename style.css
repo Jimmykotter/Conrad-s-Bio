@@ -1,0 +1,46 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7f9; /* Light blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    max-width: 600px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #26a69a; /* Teal green border */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #00796b; /* Darker teal for the heading */
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5;
+}
+
+a {
+    color: #1976d2; /* Blue for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #004ba0; /* Darker blue on hover */
+    text-decoration: underline;
+}
